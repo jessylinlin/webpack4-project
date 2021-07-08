@@ -35,5 +35,8 @@
 console.log(API_BASE_URL)
 
 //tree-shaking
-import { Button } from './components.js'
+// import { Button } from './components.js'
+
+import { Button } from "./components"
+import './css/editor.css'
 document.body.appendChild(Button())
